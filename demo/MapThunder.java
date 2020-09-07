@@ -13,6 +13,16 @@ import java.util.Map;
  */
 public class MapThunder {
 
+    /**
+     * alderney ---> hashcode: 1574723548 ---> idx: 0
+     * luminance ---> hashcode: 1178092792 ---> idx: 0
+     * chorology ---> hashcode: 1117537948 ---> idx: 0
+     * carline ---> hashcode: 554182088 ---> idx: 0
+     * fluorosis ---> hashcode: -681520224 ---> idx: 0
+     * angora ---> hashcode: -1413173564 ---> idx: 0
+     * insititious ---> hashcode: -242682680 ---> idx: 0
+     * insincere ---> hashcode: -274142680 ---> idx: 0
+     */
     @Test
     public void hashCodeTest(){
         Map<String, String> map = new HashMap<>(64);
@@ -32,4 +42,6 @@ public class MapThunder {
             System.err.println(key+" ---> hashcode: "+keyHash+" ---> idx: "+idx);
         });
     }
+    
+    
 }
