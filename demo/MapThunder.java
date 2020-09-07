@@ -9,7 +9,6 @@ import java.util.Map;
  * 最后，前7个key其实都是废 key，不起任何作用，只有最后一个 key 有服务。那么这样就可以在HashMap中建出来很多这样耗时的碰撞链表，当然要满足0.75的负载因子，不要让HashMap扩容。
  * </p>
  *
- * @author 滔哥
  * @since 2020/9/7
  */
 public class MapThunder {
